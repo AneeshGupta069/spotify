@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+nav ul img{
+
+    height: 40px;
+}
+
+.container{
+    background-image: url(covers/background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:72vh;
+    width: 70vw;
+    margin:15px auto;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    background-color: black;
+    color: white;
+ 
+
+}
+
+.bottom i{
+margin: 0 3px;
+cursor: pointer;
+}
+
+
+.songitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    width: 45%;
+    height: 25px;
+    border-radius: 22px;
+    padding: 8px 16px;
+    margin: 20px 0 ;
+}
+
+.songitem img{
+     border-radius: 6px;
+     width: 40px;
+     height:34px;
+}
+
+#myprogressbar{
+    width: 80%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
